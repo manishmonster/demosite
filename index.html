@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop - test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container width-96">
+        <div class="row">
+            <div class="col-12">
+                <header class="header mt-3 mb-6 p-1 row">
+<!--                     
+                    <div class="col-3 offset-9 d-md-none d-flex text-color2"><a class="cart"></a><span class="d-block d-md-none"><i class="fa fa-shopping-cart"></i></span> <span>( 4 )</span></</div> -->
+                    <div class="col-3 offset-9 d-flex text-color2">
+                        <div class="cart-list">
+                            <a class="cart">
+                            <span class="d-none d-md-block">My cart</span><span class="d-block d-md-none"><i class="fa fa-shopping-cart"></i></span> ( <span class="totalnumberofproduct">0</span> )
+                            </a>
+                            <div class="cartlist">
+                                <div class="main-body p-2">
+                                    <div class="row" data-product="No product" >
+                                        <div class="col-12 text-centre">NO product </div>
+                                          
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                </header>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="container width-96">
+                <div class="row">
+                    <div class="col-md-7 col-xs-12 mb-3">
+                        <div class="product-image">
+                            <img src="classic-tee.jpg" alt="Classic Tee">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <h5 class="text-color1">Classic Tee</h5>
+                        <hr/>
+                        <p class="text-color1 m-0"><b>$75.00</b></p>
+                        <hr/>
+                        <p class="text-color2">Dolor sit amt. consectetur adipiscing elil. Haec et to ita posuisti, et verba vestra sunt. Quad autem ratione adorn est, id officium appellamus dolor out amet, consectetur adipiscing elit. Haar et to its posuisti, et verbs vestra Runt. (Nod autem ratione actum est. id officium appellamus </p>
+                        <p class="text-color2">Size<span class="required">*</span> <b><span class="sizeselected text-color1" id="0"></span></b></p>
+                        <p><button class="text-color2 button border-light-grey sizebutton" id="S">S</button> <button class="text-color2 button border-light-grey sizebutton" id="M">M</button> <button class="text-color2 button border-light-grey sizebutton" id="L">L</button></p>
+                        <p><button class="text-color1 button border-dark-grey add-cart boldbutton">ADD TO CART</button></p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>    
+    <div class="modal fade" id="error" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h5 class="modal-title " id="exampleModalLongTitle">Error </h5>
+              
+            </div>
+            <div class="modal-body">
+              Please select the size before adding into the cart
+            </div>
+          </div>
+        </div>
+      </div>  
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js">
+    </script>
+</body>
+</html>
